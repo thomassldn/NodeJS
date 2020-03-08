@@ -1,0 +1,19 @@
+Steps to Build NodeJS app with Firebase:
+========================================
+1) Install NodeJS (Comes with NPM)
+2) Install package.json file #npm init , #then npm install express -save ; then
+   when you pass it on to another developer they can just do #npm install
+3) Install Nodemon: https://www.npmjs.com/package/nodemon
+   #npm install -g nodemon
+   #nodemon app.js
+4) Install Express: https://www.npmjs.com/package/express
+5) Paste HTML Form with Node.js on github to project
+6) Go to Firebase, and create a new project
+7) Create Firestore real-time database
+8) Download Service account credentials from Firebase console to your project:
+   Ex)
+   Project Settings > Service Accounts >  Firebase Admin SDK > Node.js > Generate new private key
+9) Add the Firebase Admin SDK to our app: 
+  #npm install firebase-admin --save
+
+10)
